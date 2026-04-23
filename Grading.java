@@ -17,7 +17,7 @@ public class Grading {
     }
 
     public static void grade(int marks) {
-        if (marks < 70) {
+        if (marks < 75) {
             System.out.println("Your Grade is B");
         } else {
             System.out.println("Your grade is A");
